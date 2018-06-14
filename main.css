@@ -23,32 +23,20 @@ body {
 }
 
 .profile-row .dp {
-    flex-basis: 33.3%
-}
-
-/* .profile-row .desc {
-    flex-grow: 66.6%;
-    padding: 1em;
-} */
-
-.profile-row .dp img {
-    max-width: 100%;
-    border-radius: 50%;
-}
-
-.profile-row .desc {
-    padding: 1em;
-}
-
-.profile-row .dp {
     flex-basis: 33.3%;
     position: relative;
 }
 
-profile-row .dp img {
+.profile-row .dp img {
     max-width: 100%;
-    border-radius: 20%;
+    
+    border-radius: 50%;
     display: block;
+}
+
+.profile-row .desc {
+    flex-grow: 66.6%;
+    padding: 1em;
 }
 
 .profile-row .dp .dp-arc-inner{
